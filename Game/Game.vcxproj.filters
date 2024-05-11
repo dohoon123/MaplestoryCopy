@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Game.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Collision.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\matrix.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rendering.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sound.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Time.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\vector.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Scene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\BGScene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Creature.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Monster.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Singleton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\CameraManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\IObjectPoolable.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ObjectPool.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolableActor\MagnumPunch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolableActor\DoublePang.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolableActor\DoubleJump.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolableActor\Damage_Effect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolableActor\Skill.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Stump.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Stompy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\UI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\DeformedStompy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolableActor\BossBullet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolableActor\ReleasePileBunker.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolableActor\Ducking.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Vellum.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolableActor\VellumStone.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolableActor\VellumTale.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\Game.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\BGScene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Monster.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\CameraManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolableActor\MagnumPunch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolableActor\DoublePang.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolableActor\DoubleJump.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolableActor\Damage_Effect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolableActor\Skill.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Stump.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Stompy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\UI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\DeformedStompy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolableActor\BossBullet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolableActor\ReleasePileBunker.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolableActor\Ducking.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Vellum.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolableActor\VellumStone.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolableActor\VellumTale.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Image\0.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\0_100.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\2.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\3.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\4.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\5.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\6.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\7.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\8.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\9.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\100_200.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\200_300.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\300_400.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\400_500.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\500_600.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\600_700.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\700_800.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\800_900.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\900_1000.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\AbyssCave.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\BlasterBullet.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\BlasterUIBG1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\BlasterUIBG2.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\BlasterUIBG3.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\BlasterUIBG4.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\BlasterUINum1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\BlasterUINum2.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\BlasterUINum3.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\BlasterUINum4.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\BlasterUINum5.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\BlasterUINum6.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\Boss_Hp.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\Bullet.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\BulletCapacity.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\ChargeStack.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\Cursor.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\Deathcount.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\Hp.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\HpMpBar.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\MonsterLifeBar.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\MonsterLifeBar_Green.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\Mp.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\Point.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\SinkingThings.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\SinkingThingsField1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\V0.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\V1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\V2.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\V3.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\V4.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\V5.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\V6.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\V7.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\V8.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\V9.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\WhaleBelly.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\WhaleBellyField.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\WhereStarsRest.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\WhereStarsRestField1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\WhereStarsRestNPC.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Alert[3].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\BlasterFullCharge[7].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\BlasterUIBG3[1].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\BOSSDS_Attack[8].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\BOSSDS_Die[17].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\BOSSDS_Move[6].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\BOSSDS_Skill1[9].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\BOSSDS_Stand[6].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\BracketLoop[5].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\CursorClick[2].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\DarkAxeStump[4].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\DarkAxeStumpDie[8].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\DarkAxeStumpHit[1].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\DarkAxeStumpStand[1].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Deathcount[1].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Die[1].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\DoubleJump[7].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\DoublePang[10].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\DropStone[23].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\DropStoneAfter[5].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Ducking[9].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\DuckingCharge[6].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Jump[1].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\MagnumPunch[11].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\PileBunker[4].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Player_Stunned[3].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Portal[8].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Prone[1].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Punch[2].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\ReleasePileBunker[11].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Rope[2].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Stand[4].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\StompyDie[6].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\StompyHit[1].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\StompyMove[6].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\StompyStand[6].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\SwayCharge[6].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Uppercut[3].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumDie[13].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumDive1[8].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumDive2[8].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumFireballLong1[8].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumFireballLong2[8].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumFireballMiddle1[8].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumFireballMiddle2[7].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumFireballShort1[7].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumFireballShort2[7].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumFireballStart1[7].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumFireballStart2[6].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumLongNeckRise[7].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumLongNeckSink[11].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumLongNeckStand[12].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumLongNeckStandNew[3].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumMove[10].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumShortNeckRise[10].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumShortNeckSink[8].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumShortNeckStand[5].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumTale1[9].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumTale2[9].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\VellumWarning[7].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Animation\Walk[4].png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Font\Maple.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sound\AbyssCave.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\DoubleJump.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\DoublePang.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\Ducking.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\DuckingCharge.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\HitSound.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\Jump.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\MagnumPunch.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\Portal.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\ReleasePileBunker.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\SinkingThings.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\StompyDamage.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\StompyDie.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\StumpDamage.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\StumpDie.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\TombStone.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\VellumFireball.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\VellumLongNeckRise.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\VellumShortNeck.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\VellumTaleRise.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\VellumTaleSink.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\WhaleBelly.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="Sound\WhereStarsRest.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

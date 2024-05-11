@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  BGScene.cpp
+  Game.cpp
+  TestScene.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Scene\BGScene.cpp(15,5): error C2065: 'in': 선언되지 않은 식별자입니다.
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Manager\Game.cpp(4,10): fatal error C1083: 포함 파일을 열 수 없습니다. '': No such file or directory

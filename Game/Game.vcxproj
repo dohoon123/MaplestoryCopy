@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2450132d-e0cf-41c4-aca7-57dc3e3c1e81}</ProjectGuid>
+    <RootNamespace>Game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir).out\</OutDir>
+    <IntDir>$(SolutionDir).int\Game\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir).out\</OutDir>
+    <IntDir>$(SolutionDir).int\Game\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <AdditionalDependencies>d3d11.lib;FreeImage.lib;Engine.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir).lib\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir).lib\</AdditionalLibraryDirectories>
+      <TreatLinkerWarningAsErrors>false</TreatLinkerWarningAsErrors>
+      <AdditionalDependencies>d3d11.lib;FreeImage.lib;Engine.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="PoolableActor\Ducking.h" />
+    <ClInclude Include="PoolableActor\BossBullet.h" />
+    <ClInclude Include="Creature\DeformedStompy.h" />
+    <ClInclude Include="PoolableActor\Damage_Effect.h" />
+    <ClInclude Include="PoolableActor\DoubleJump.h" />
+    <ClInclude Include="PoolableActor\DoublePang.h" />
+    <ClInclude Include="PoolableActor\MagnumPunch.h" />
+    <ClInclude Include="PoolableActor\Skill.h" />
+    <ClInclude Include="Creature\Stump.h" />
+    <ClInclude Include="Creature\Stompy.h" />
+    <ClInclude Include="Manager\UI.h" />
+    <ClInclude Include="PoolableActor\ReleasePileBunker.h" />
+    <ClInclude Include="Util\IObjectPoolable.h" />
+    <ClInclude Include="Manager\CameraManager.h" />
+    <ClInclude Include="Manager\Creature.h" />
+    <ClInclude Include="Creature\Monster.h" />
+    <ClInclude Include="Manager\Player.h" />
+    <ClInclude Include="Manager\SceneManager.h" />
+    <ClInclude Include="Manager\Singleton.h" />
+    <ClInclude Include="Util\ObjectPool.h" />
+    <ClInclude Include="Scene\BGScene.h" />
+    <ClInclude Include="Engine\Collision.h" />
+    <ClInclude Include="Engine\Game.h" />
+    <ClInclude Include="Engine\Input.h" />
+    <ClInclude Include="Engine\matrix.h" />
+    <ClInclude Include="Engine\Rendering.h" />
+    <ClInclude Include="Engine\Sound.h" />
+    <ClInclude Include="Engine\Time.h" />
+    <ClInclude Include="Engine\vector.h" />
+    <ClInclude Include="Manager\Game.h" />
+    <ClInclude Include="Manager\Scene.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Creature\Vellum.h" />
+    <ClInclude Include="PoolableActor\VellumStone.h" />
+    <ClInclude Include="PoolableActor\VellumTale.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PoolableActor\Ducking.cpp" />
+    <ClCompile Include="PoolableActor\BossBullet.cpp" />
+    <ClCompile Include="Creature\DeformedStompy.cpp" />
+    <ClCompile Include="PoolableActor\Damage_Effect.cpp" />
+    <ClCompile Include="PoolableActor\DoubleJump.cpp" />
+    <ClCompile Include="PoolableActor\DoublePang.cpp" />
+    <ClCompile Include="PoolableActor\MagnumPunch.cpp" />
+    <ClCompile Include="Manager\CameraManager.cpp" />
+    <ClCompile Include="Creature\Monster.cpp" />
+    <ClCompile Include="Manager\Player.cpp" />
+    <ClCompile Include="Manager\SceneManager.cpp" />
+    <ClCompile Include="PoolableActor\Skill.cpp" />
+    <ClCompile Include="PoolableActor\ReleasePileBunker.cpp" />
+    <ClCompile Include="Scene\BGScene.cpp" />
+    <ClCompile Include="Manager\Game.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Creature\Stump.cpp" />
+    <ClCompile Include="Creature\Stompy.cpp" />
+    <ClCompile Include="Manager\UI.cpp" />
+    <ClCompile Include="Creature\Vellum.cpp" />
+    <ClCompile Include="PoolableActor\VellumStone.cpp" />
+    <ClCompile Include="PoolableActor\VellumTale.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Animation\Alert[3].png" />
+    <Image Include="Animation\BlasterFullCharge[7].png" />
+    <Image Include="Animation\BlasterUIBG3[1].png" />
+    <Image Include="Animation\BOSSDS_Attack[8].png" />
+    <Image Include="Animation\BOSSDS_Die[17].png" />
+    <Image Include="Animation\BOSSDS_Move[6].png" />
+    <Image Include="Animation\BOSSDS_Skill1[9].png" />
+    <Image Include="Animation\BOSSDS_Stand[6].png" />
+    <Image Include="Animation\BracketLoop[5].png" />
+    <Image Include="Animation\CursorClick[2].png" />
+    <Image Include="Animation\DarkAxeStumpDie[8].png" />
+    <Image Include="Animation\DarkAxeStumpHit[1].png" />
+    <Image Include="Animation\DarkAxeStumpStand[1].png" />
+    <Image Include="Animation\DarkAxeStump[4].png" />
+    <Image Include="Animation\Deathcount[1].png" />
+    <Image Include="Animation\Die[1].png" />
+    <Image Include="Animation\DoubleJump[7].png" />
+    <Image Include="Animation\DoublePang[10].png" />
+    <Image Include="Animation\DropStoneAfter[5].png" />
+    <Image Include="Animation\DropStone[23].png" />
+    <Image Include="Animation\DuckingCharge[6].png" />
+    <Image Include="Animation\Ducking[9].png" />
+    <Image Include="Animation\Jump[1].png" />
+    <Image Include="Animation\MagnumPunch[11].png" />
+    <Image Include="Animation\PileBunker[4].png" />
+    <Image Include="Animation\Player_Stunned[3].png" />
+    <Image Include="Animation\Portal[8].png" />
+    <Image Include="Animation\Prone[1].png" />
+    <Image Include="Animation\Punch[2].png" />
+    <Image Include="Animation\ReleasePileBunker[11].png" />
+    <Image Include="Animation\Rope[2].png" />
+    <Image Include="Animation\Stand[4].png" />
+    <Image Include="Animation\StompyDie[6].png" />
+    <Image Include="Animation\StompyHit[1].png" />
+    <Image Include="Animation\StompyMove[6].png" />
+    <Image Include="Animation\StompyStand[6].png" />
+    <Image Include="Animation\SwayCharge[6].png" />
+    <Image Include="Animation\Uppercut[3].png" />
+    <Image Include="Animation\VellumDie[13].png" />
+    <Image Include="Animation\VellumDive1[8].png" />
+    <Image Include="Animation\VellumDive2[8].png" />
+    <Image Include="Animation\VellumFireballLong1[8].png" />
+    <Image Include="Animation\VellumFireballLong2[8].png" />
+    <Image Include="Animation\VellumFireballMiddle1[8].png" />
+    <Image Include="Animation\VellumFireballMiddle2[7].png" />
+    <Image Include="Animation\VellumFireballShort1[7].png" />
+    <Image Include="Animation\VellumFireballShort2[7].png" />
+    <Image Include="Animation\VellumFireballStart1[7].png" />
+    <Image Include="Animation\VellumFireballStart2[6].png" />
+    <Image Include="Animation\VellumLongNeckRise[7].png" />
+    <Image Include="Animation\VellumLongNeckSink[11].png" />
+    <Image Include="Animation\VellumLongNeckStandNew[3].png" />
+    <Image Include="Animation\VellumLongNeckStand[12].png" />
+    <Image Include="Animation\VellumMove[10].png" />
+    <Image Include="Animation\VellumShortNeckRise[10].png" />
+    <Image Include="Animation\VellumShortNeckSink[8].png" />
+    <Image Include="Animation\VellumShortNeckStand[5].png" />
+    <Image Include="Animation\VellumTale1[9].png" />
+    <Image Include="Animation\VellumTale2[9].png" />
+    <Image Include="Animation\VellumWarning[7].png" />
+    <Image Include="Animation\Walk[4].png" />
+    <Image Include="Image\0.png" />
+    <Image Include="Image\0_100.png" />
+    <Image Include="Image\1.png" />
+    <Image Include="Image\100_200.png" />
+    <Image Include="Image\2.png" />
+    <Image Include="Image\200_300.png" />
+    <Image Include="Image\3.png" />
+    <Image Include="Image\300_400.png" />
+    <Image Include="Image\4.png" />
+    <Image Include="Image\400_500.png" />
+    <Image Include="Image\5.png" />
+    <Image Include="Image\500_600.png" />
+    <Image Include="Image\6.png" />
+    <Image Include="Image\600_700.png" />
+    <Image Include="Image\7.png" />
+    <Image Include="Image\700_800.png" />
+    <Image Include="Image\8.png" />
+    <Image Include="Image\800_900.png" />
+    <Image Include="Image\9.png" />
+    <Image Include="Image\900_1000.png" />
+    <Image Include="Image\AbyssCave.png" />
+    <Image Include="Image\BlasterBullet.png" />
+    <Image Include="Image\BlasterUIBG1.png" />
+    <Image Include="Image\BlasterUIBG2.png" />
+    <Image Include="Image\BlasterUIBG3.png" />
+    <Image Include="Image\BlasterUIBG4.png" />
+    <Image Include="Image\BlasterUINum1.png" />
+    <Image Include="Image\BlasterUINum2.png" />
+    <Image Include="Image\BlasterUINum3.png" />
+    <Image Include="Image\BlasterUINum4.png" />
+    <Image Include="Image\BlasterUINum5.png" />
+    <Image Include="Image\BlasterUINum6.png" />
+    <Image Include="Image\Boss_Hp.png" />
+    <Image Include="Image\Bullet.png" />
+    <Image Include="Image\BulletCapacity.png" />
+    <Image Include="Image\ChargeStack.png" />
+    <Image Include="Image\Cursor.png" />
+    <Image Include="Image\Deathcount.png" />
+    <Image Include="Image\Hp.png" />
+    <Image Include="Image\HpMpBar.png" />
+    <Image Include="Image\MonsterLifeBar.png" />
+    <Image Include="Image\MonsterLifeBar_Green.png" />
+    <Image Include="Image\Mp.png" />
+    <Image Include="Image\Point.png" />
+    <Image Include="Image\SinkingThings.png" />
+    <Image Include="Image\SinkingThingsField1.png" />
+    <Image Include="Image\V0.png" />
+    <Image Include="Image\V1.png" />
+    <Image Include="Image\V2.png" />
+    <Image Include="Image\V3.png" />
+    <Image Include="Image\V4.png" />
+    <Image Include="Image\V5.png" />
+    <Image Include="Image\V6.png" />
+    <Image Include="Image\V7.png" />
+    <Image Include="Image\V8.png" />
+    <Image Include="Image\V9.png" />
+    <Image Include="Image\WhaleBelly.png" />
+    <Image Include="Image\WhaleBellyField.png" />
+    <Image Include="Image\WhereStarsRest.png" />
+    <Image Include="Image\WhereStarsRestField1.png" />
+    <Image Include="Image\WhereStarsRestNPC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Font\Maple.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sound\AbyssCave.wav" />
+    <Media Include="Sound\DoubleJump.wav" />
+    <Media Include="Sound\DoublePang.wav" />
+    <Media Include="Sound\Ducking.wav" />
+    <Media Include="Sound\DuckingCharge.wav" />
+    <Media Include="Sound\HitSound.wav" />
+    <Media Include="Sound\Jump.wav" />
+    <Media Include="Sound\MagnumPunch.wav" />
+    <Media Include="Sound\Portal.wav" />
+    <Media Include="Sound\ReleasePileBunker.wav" />
+    <Media Include="Sound\SinkingThings.wav" />
+    <Media Include="Sound\StompyDamage.wav" />
+    <Media Include="Sound\StompyDie.wav" />
+    <Media Include="Sound\StumpDamage.wav" />
+    <Media Include="Sound\StumpDie.wav" />
+    <Media Include="Sound\TombStone.wav" />
+    <Media Include="Sound\VellumFireball.wav" />
+    <Media Include="Sound\VellumLongNeckRise.wav" />
+    <Media Include="Sound\VellumShortNeck.wav" />
+    <Media Include="Sound\VellumTaleRise.wav" />
+    <Media Include="Sound\VellumTaleSink.wav" />
+    <Media Include="Sound\WhaleBelly.wav" />
+    <Media Include="Sound\WhereStarsRest.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

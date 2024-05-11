@@ -1,0 +1,50 @@
+﻿  Ducking.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\PoolableActor\Ducking.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  BossBullet.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\PoolableActor\BossBullet.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  DeformedStompy.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Creature\DeformedStompy.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  Damage_Effect.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\PoolableActor\Damage_Effect.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  DoubleJump.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\PoolableActor\DoubleJump.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  DoublePang.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\PoolableActor\DoublePang.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  MagnumPunch.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\PoolableActor\MagnumPunch.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  CameraManager.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Manager\CameraManager.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  Monster.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Creature\Monster.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  Player.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Manager\Player.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  SceneManager.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Manager\SceneManager.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  Skill.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\PoolableActor\Skill.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  ReleasePileBunker.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\PoolableActor\ReleasePileBunker.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  BGScene.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Scene\BGScene.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  Game.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Manager\Game.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  stdafx.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Engine\matrix.h(83,9): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Engine\matrix.h(81,16): message : 이 진단은 컴파일러 생성 함수 'const auto matrix<m,n>::operator *(const matrix<n,l> &) const'에서 수행되었습니다.
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Engine\matrix.h(121): message : 컴파일되는 클래스 템플릿 인스턴스화 'matrix<m,n>'에 대한 참조를 확인하세요.
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Engine\matrix.h(112,14): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Engine\matrix.h(113,14): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Engine\matrix.h(126,5): warning C4984: 'if constexpr'은 C++17 언어 확장입니다.
+  Stump.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Creature\Stump.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  Stompy.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Creature\Stompy.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  UI.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Manager\UI.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  Vellum.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\Creature\Vellum.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  컴파일하고 있습니다...
+  VellumStone.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\PoolableActor\VellumStone.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
+  VellumTale.cpp
+C:\Users\hando\source\repos\SGA\portfolio\Maple\Game\PoolableActor\VellumTale.cpp(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
